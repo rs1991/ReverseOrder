@@ -15,10 +15,20 @@ namespace ReverseOrder
                 reverseText = reverseText + text1[i];
                 
             }
-            
             Console.Write("Here is your text in reverse order: " + reverseText);
             Console.Read();
+            if (reverseText == text1)
+            {
+                Console.WriteLine("Is a palindrome");
+            }
+            else
+            {
+                Console.WriteLine("Is not a palindrome");
+            }
+
+            }
+            
+            
 
         }
     }
-}
