@@ -6,7 +6,7 @@ namespace ReverseOrder
     {
         static void Main(string[] args)
         {
-            String text1, reverseText = "", temp;
+            String text1, reverseText = "";
 
             Console.Write("Please enter some text: ");
             text1 = Convert.ToString(Console.ReadLine());
@@ -27,8 +27,6 @@ namespace ReverseOrder
             }
 
             }
-            
-            
-
+ 
         }
     }
